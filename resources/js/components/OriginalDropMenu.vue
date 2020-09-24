@@ -76,9 +76,6 @@ export default {
     addGroup(layout) {
       if (!layout) return;
 
-      console.log("addGroup");
-      console.log(layout);
-
       this.$emit("addGroup", layout);
 
       this.isLayoutsDropdownOpen = false;
